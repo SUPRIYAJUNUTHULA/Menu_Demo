@@ -1,0 +1,13 @@
+<br><br>
+<table class="table table-striped table-light">
+   <thead><th></th><th>Item Name</th><th>Item Cost</th></thead>
+    <tbody>
+      <tr *ngFor="let Item of ListofI;let i=index">
+        <td scope="row">{{i+1}}</td>
+        <td>{{Item.name}}</td>
+        <td>{{Item.cost}}</td>
+        
+        
+      </tr>
+    </tbody>
+  </table>

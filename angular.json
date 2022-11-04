@@ -88,14 +88,14 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            ]
+            
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c7ac7047-34e7-4c6e-9aab-2f838095d73e"
   }
 }
